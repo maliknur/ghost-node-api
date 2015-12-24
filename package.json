@@ -1,0 +1,39 @@
+{
+  "name": "ghost-node-api",
+  "version": "0.0.1",
+  "description": "Ghost server in node.js mocking RESTFUL API server, route calls to static JSON files with different HTTP methods",
+  "main": "ghostapi.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maliknur/ghost-node-api.git"
+  },
+  "keywords": [
+    "api",
+    "server",
+    "mock",
+    "restful",
+    "node",
+    "express",
+    "json"
+  ],
+  "author": "Malik Nur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maliknur/ghost-node-api/issues"
+  },
+  "homepage": "https://github.com/maliknur/ghost-node-api",
+  "dependencies": {
+    "connect-slow": "^0.2.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.4",
+    "lodash-node": "^3.9.3",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0",
+    "request-promise": "^0.4.3"
+  }
+}
