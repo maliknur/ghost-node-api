@@ -1,0 +1,41 @@
+[
+    {
+        "id": "123",
+        "name": "Customer 123",
+        "phone": "222-222-2222",
+        "address": {
+            "addressLine1": "1st Avenue",
+            "addressLine2": "Apt 101",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98001"
+        },
+        "email": "someone@company.com"
+    },
+    {
+        "id": "456",
+        "name": "Customer 456",
+        "phone": "222-222-2222",
+        "address": {
+            "addressLine1": "1st Avenue",
+            "addressLine2": "Apt 101",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98001"
+        },
+        "email": "someone@company.com"
+    },
+    {
+        "id": "789",
+        "name": "Customer 789",
+        "phone": "222-222-2222",
+        "address": {
+            "addressLine1": "1st Avenue",
+            "addressLine2": "Apt 101",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98001"
+        },
+        "email": "someone@company.com"
+    }
+]

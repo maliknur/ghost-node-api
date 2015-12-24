@@ -29,4 +29,8 @@ server.put('custom', function(request, response){
 	response.json({status: 'Put method - OK'})
 });
 
+server.post("customers", function(request, response){
+	response.json({result: "New customer created"});
+})
+
 server.start();
