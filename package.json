@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maliknur/-ghost-ghost-node-api-.git"
+    "url": "https://github.com/maliknur/ghost-node-api.git"
   },
   "keywords": [
     "api",
@@ -22,9 +22,9 @@
   "author": "Malik Nur",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maliknur/-ghost-node-api-/issues"
+    "url": "https://github.com/maliknur/ghost-node-api/issues"
   },
-  "homepage": "https://github.com/maliknur/-ghost-ghost-node-api-",
+  "homepage": "https://github.com/maliknur/ghost-node-api",
   "dependencies": {
     "connect-slow": "^0.2.2",
     "cors": "^2.7.1",
