@@ -1,0 +1,12 @@
+[
+	{
+		"id": 1,
+		"name": "Laser Printer",
+		"manufacturer": "Canon"
+	},
+	{
+		"id":2,
+		"name": "Color printer",
+		"manufacturer": "Brothers"
+	}
+]

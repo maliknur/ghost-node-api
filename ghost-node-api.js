@@ -68,7 +68,7 @@ NODEAPI.prototype.initNodeRoute = function(filePath){
         responseData = sort(parsedData, request.query[this.options.sortParameter]);
         console.log('Serving: ' + fileName)
         try {
-          response.json(this.decorate(responseData, request));
+          response.json(this.beautify(responseData, request));
         } catch (e) {
           console.log(e);
         }
@@ -99,7 +99,7 @@ NODEAPI.prototype.initNodeRoute = function(filePath){
               }
               if(foundItem){
                 console.log('Serving: ' + path.join(this.getFileName(splitted.path), splitted.id));
-                response.json(this.decorate(foundItem, request));
+                response.json(this.beautify(foundItem, request));
               } else {
                 response.sendStatus(404);
               }
@@ -118,7 +118,7 @@ NODEAPI.prototype.initNodeRoute = function(filePath){
 
 
 //This function can be overridden. Allows to modify responses globally.
-NODEAPI.prototype.decorate = function(data) {
+NODEAPI.prototype.beautify = function(data) {
   return data;
 };
 

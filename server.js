@@ -9,7 +9,7 @@ var server = new API({
 });
 
 //wrap data in 'results' and add total amount
-server.decorate = function(data){
+server.beautify = function(data){
   if(data.length){
     return {
       results: data,
