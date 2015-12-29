@@ -1,4 +1,4 @@
-# Ghost-Node-API https://travis-ci.org/maliknur/ghost-node-api.svg?branch=master
+# Ghost-Node-API [![Build Status](https://travis-ci.org/maliknur/ghost-node-api.svg?branch=master)](https://travis-ci.org/maliknur/ghost-node-api)
  :ghost: Ghost server in node.js mocking RESTFUL API server, route calls to static JSON files with different HTTP methods
 
 ## What does it do?
