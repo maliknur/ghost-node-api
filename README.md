@@ -1,5 +1,5 @@
 # Ghost-Node-API
-Ghost server in node.js mocking RESTFUL API server, route calls to static JSON files with different HTTP methods
+ :ghost: Ghost server in node.js mocking RESTFUL API server, route calls to static JSON files with different HTTP methods
 
 ## What does it do?
 
@@ -7,7 +7,7 @@ Ghost-Node-API was written to simulate a simple RESTFUL API.
 API calls are routed to static JSON files.
 As an example if your sample directory looks like this:
 ```
-+ sample-files
++ samples
   - customers.json
   - users.json
   + products
@@ -37,16 +37,16 @@ returns all items from products/printers.json
 
 ## Installation
 
-`npm install mini-mock-api`
+`npm install`
 
 ## Usage
 
 ```
-var API = require('mini-mock-api');
+var API = require('ghost-node-api');
 var myApi = new API({
   basePath: '/api/v1',
-  mockPath: 'mock-files',
-  idAttribute: '_id'
+  mockPath: 'samples',
+  idAttribute: 'id'
 });
 myApi.start();
 ```
@@ -54,7 +54,6 @@ myApi.start();
 To run the server:
 ```
 cd ghost-node-api
-npm install
 npm start
 
 Open your Browser or Postman and go to `localhost:7777/api/v1/users`
