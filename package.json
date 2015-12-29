@@ -1,6 +1,6 @@
 {
   "name": "ghost-node-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Ghost server in node.js mocking RESTFUL API server, route calls to static JSON files with different HTTP methods",
   "main": "ghostapi.js",
   "scripts": {
